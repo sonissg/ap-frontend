@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Sonia Greco - Yo Programo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/aefae77925.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="row justify-content-between  align-items-center">
+            <div class="col"><img src="img/logo_argentinaPrograma.jpg" alt="Argentina Programa Logo" class="logo-ap"></div>
+            <div class="col-md-auto">
+                <i class="fa fa-linkedin fs-5 pe-3"></i>
+                <i class="fa fa-behance fs-5"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+<section class="bg-banner banner">
+    <div class="container p-4">
+    <div class="row">
+        <div class="col-auto">
+            <img alt="Sonia GReco" src="img/sonia.jpg" style="height: 140px;">
+       
+        </div>
+        <div class="col-9">
+            <h1 class="h4">Sonia Greco</h1>
+            <h2 class="h5">Diseñadora Ux Ui</h2>
+            <div onclick="cambiar_parrafo()"><i class="fa fa-solid fa-pencil"></i></div>
+            <div><p id="txt-acercademi">Cuento con varios años de experiencia prototipando diseñando y maquetando Frontends, Backends y sistemas. Contemplando la usabilidad, creando piezas responsivas para una mejor perfomance de sitios y/o aplicaciones web, además de buenas prácticasen accesibilidad. </p></div>
+            <div><input id="edit-acercademi" type="text" oninput="myFunction2(this.value)" style="display: none;"></div>
+            <input type="file" id="file1" onchange="showFile(this)">
+        </div>
+    </div>
+    </div>
+</section>
+<section>
+   
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-md-8 pt-4 ">
+        <h1 class="h3">Experiencia Laboral</h1>
+        <hr>
+        <div class="row mb-4">
+            <div class="col-md-2 col-12">
+                <small>2019 - Actual</small>
+            </div>
+            <div class="col-md-10 col-12">
+                <h2 class="h5">Diseñadora Ux Ui</h2>
+                <h3 class="h6">Producto Digital, Sec. de Gobierno Abierto - Jefatura de Gabinete de Ministros</h3>
+                <small>Aplicación de buenas prácticas de la arquitectura de la
+                    información, accesibilidad y diseño de la interacción. Defino y
+                    organizo el contenido para luego decidir un flujo claro de
+                    navegación.
+                    Esquematizo cada pantalla o páginas en un diseño con el que
+                    interactúa el usuario, con el objetivo de generar una interfaz de
+                    de fácil comprensión.</small>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-2 col-12">
+                <small>2015 - 2019</small>
+            </div>
+            <div class="col-md-10 col-12">
+                <h2 class="h5">Diseñadora Ux Ui</h2>
+                <h3 class="h6">Subsecretaría de País Digital | Ministerio de Modernización</h3>
+                <small>Prototipos funcionales. Desarrollo de Interfaz de Usuario y
+                    Experiencia de Usuario para aplicaciones y sistemas tanto Web
+                    como Mobile.
+                    Accesibilidad web. Desarrollo HTML/CSS. Drupal.</small>
+            </div>
+        </div>
+      
+        <div class="row mb-4">
+            <div class="col-md-2 col-12">
+                <small>2009- 2015</small>
+            </div>
+            <div class="col-md-10 col-12">
+                <h2 class="h5">Diseñadora web</h2>
+                <h3 class="h6">Dirección de Informática | Minplan - Minem</h3>
+                <small>Diseño y desarrollo de sitios webs en Html - Css - JavaScript, en
+                    entorno de PHP y Zend. Diseño Responsive. Accesibilidad y
+                    usabilidad. Desarrollo de Interfaces.</small>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-md-8 pt-4 ">
+        <h1 class="h3">Educación</h1>
+        <hr>
+        <div class="row mb-4">
+            <div class="col-md-2 col-12">
+                <img src="" alt="Img logo">
+            </div>
+            <div class="col-md-10 col-12">
+                <h2 class="h5">Diseño Full Stack</h2>
+                <h3 class="h6">Inti - Cessi | Programa Argentina Programa</h3>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-2 col-12">
+                <img src="" alt="Img logo">
+            </div>
+            <div class="col-md-10 col-12">
+                <h2 class="h5">Diseño UX</h2>
+                <h3 class="h6">Programa Codo a Codo</h3>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-2 col-12">
+                <img src="" alt="Img logo">
+            </div>
+            <div class="col-md-10 col-12">
+                <h2 class="h5">Diplomatura en accesibilidad y usabilidad</h2>
+                <h3 class="h6">UTN Universidad Tecnológica Argentina</h3>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-2 col-12">
+                <img src="" alt="Img logo">
+            </div>
+            <div class="col-md-10 col-12">
+                <h2 class="h5">Diseñadora Gráfica</h2>
+                <h3 class="h6">UBA Universidad de Buenos Aires</h3>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-md-8 pt-4 ">
+        <h1 class="h3">Skills</h1>
+        <hr>
+        
+        </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-md-8 pt-4 ">
+        <h1 class="h3">Proyectos</h1>
+        <hr>
+      
+
+      
+        </div>
+        </div>
+    </div>
+</section>
+</main>
+<script>
+    function cambiar_parrafo(){
+        document.getElementById("edit-acercademi").style.display="block";
+        let texto = document.getElementById("txt-acercademi").innerText;
+        console.log(texto); 
+    }
+
+    function myFunction2(valor){
+     document.getElementById("txt-acercademi").innerText=valor;
+    }
+
+    function logMessage(message){
+        console.log(message + "<br>")
+    }
+    let textarea=document.getElementById("edit-acercade")
+     textarea.addEventListener('keyup', (e) =>{
+         logMessage(`Key "${e.key}" released [event: keyup]`);
+         if (e.key=="Enter"){
+             document.getElementById("edit-acercademi").style.display="none"
+         }
+     }
+     );
+
+     function showFile(input){
+         let file = input.files[0];
+         alert(`File name: ${file.name}`); 
+         alert(`Last modified: ${file.lastModified}`);
+
+         let reader = new FileReader();
+         reader.readAsText(file);
+         reader.onload = function() {
+             console.log(reader.result);
+             document.getElementById("txt-acercademi").innerText=reader.result;
+         };
+         reader.onerror = function() {
+             console.log(reader.error);
+         };
+     }
+
+</script>
+</body>
+</html>
+
